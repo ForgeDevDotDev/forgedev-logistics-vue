@@ -1,0 +1,35 @@
+{
+  "name": "forgedev-logistics-vue",
+  "version": "1.0.0",
+  "description": "ForgeDev Logistics Vue 3 Frontend - Delivery tracking & dispatch dashboard",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext .vue,.ts,.tsx",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "vue": "^3.4.0",
+    "vue-router": "^4.2.5",
+    "pinia": "^2.1.7",
+    "axios": "^1.6.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.0",
+    "vue-tsc": "^1.8.27",
+    "vitest": "^1.2.0",
+    "@vue/test-utils": "^2.4.3",
+    "jsdom": "^24.0.0",
+    "@playwright/test": "^1.41.0",
+    "eslint": "^8.56.0",
+    "eslint-plugin-vue": "^9.20.0",
+    "@typescript-eslint/eslint-plugin": "^6.19.0",
+    "@typescript-eslint/parser": "^6.19.0"
+  }
+}
